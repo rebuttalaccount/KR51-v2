@@ -312,5 +312,5 @@ def main(
 
 
 if __name__ == "__main__":
-    # CUDA_VISIBLE_DEVICES=0 torchrun --nproc_per_node 1 --master_port 12381 synthesize_text.py --ckpt_dir='/path/to/your/llama'  --tokenizer_path '/path/to/your/llama/tokenizer.model' --max_batch_size 20 --max_seq_len 400 --max_gen_len 100     --total_captions 47000 --seed 42 --output_filename dtd.json --temperature 0.8
+    # CUDA_VISIBLE_DEVICES=0 torchrun --nproc_per_node 1 --master_port 12381 synthesize_text.py --ckpt_dir='/path/to/your/llama'  --tokenizer_path '/path/to/your/llama/tokenizer.model' --max_batch_size 20 --max_seq_len 400 --max_gen_len 100     --total_captions 4700 --seed 42 --output_filename dtd.json --temperature 0.8
     fire.Fire(main)
